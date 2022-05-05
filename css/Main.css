@@ -8,4 +8,50 @@ html{
 
 body{
   margin:0;
+  background-color: #D3D3D3;
+}
+
+.tv{
+  position:fixed;
+  z-index:100;
+}
+
+.tv.top{
+  top:0;
+}
+
+.tv.bottom{
+  bottom:0;
+}
+
+.tv.left{
+  left:0;
+}
+
+.tv.right{
+  right:0;
+}
+
+.tv.middle{
+  left:100px;
+  right:85px;
+  width: calc(100% - 200px);
+}
+
+.tv.top.middle{
+  height:59px
+}
+
+.tv.bottom.middle{
+  height:68px;
+}
+
+.tv.center{
+  top: 85px;
+  height: calc(100% - 170px);
+  width: 77px;
+}
+
+.content{
+  padding: 100px;
 }
