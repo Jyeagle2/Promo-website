@@ -70,13 +70,28 @@ a:hover{
   padding: 100px;
 }
 
+.content a {
+  display: inline-block;
+  min-width: 200px;
+  width: 25%;
+}
+
+.content img {
+  display: block;
+  width: 100%;
+}
+
 .nav{
   font-size: 24px;
   font-family: 'Julee', cursive;
   margin-left:auto;
   margin-right:auto;
   max-width:800px;
-  width: 35%
+  width: 35%;
+}
+
+.nav a{
+  padding-right: 8px;
 }
 
 /*.background{
