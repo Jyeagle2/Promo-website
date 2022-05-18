@@ -102,6 +102,16 @@ width: 25%;
 height: 30%;
 }
 
+.main{
+  bottom: 100px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 300px;
+  width: 75%;
+z-index: 100;
+}
+
 .nav a{
   padding-right: 8px;
 }
@@ -118,6 +128,7 @@ height: 30%;
   font-size: 30px;
   color: darkblue;
 }
+
 
 
 
